@@ -20,7 +20,7 @@ class CreateProductsTable extends Migration
             $table->longText('description')->nullable();
             $table->string('sku');
             $table->decimal('amount', 10, 2)->nullable();
-            $table->dateTime('publishedAt');
+            $table->dateTime('published_at')->nullable();
             $table->timestamps();
         });
     }
