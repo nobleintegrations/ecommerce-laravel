@@ -16,6 +16,7 @@
         "laravel/jetstream": "^1.6",
         "laravel/sanctum": "^2.6",
         "laravel/tinker": "^2.5",
+        "litstack/litstack": "^3.1",
         "livewire/livewire": "^2.0"
     },
     "require-dev": {
@@ -39,7 +40,8 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "Lit\\": "lit/app/"
         }
     },
     "autoload-dev": {
